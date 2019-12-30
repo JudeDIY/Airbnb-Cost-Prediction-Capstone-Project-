@@ -25,11 +25,21 @@ And by Subtracting it with the hotel_latitude and hotel_longitude using Distance
 Results without Feature Engineering:
 The model performance for training set R2 score is 0.698782957074438
 The model performance for testing set R2 score is 0.7899394341859203
+  XG Boost : 0.924
+  Bagging(DTR) : 0.847
+  ADABoost(DTR) : 0.872
+  Bagging(RFR) : 0.933
 
 Results with Feature Engineering:
 The model performance for training set R2 score is 0.698782957074438
 The model performance for testing set R2 score is 0.7899394341859203
 
+  XG Boost : 0.891
+  Bagging(DTR) : 0.828
+  ADABoost(DTR) : 0.857
+  Bagging(RFR) : 0.930
+  
+  
 Data Insights:
 
 1. Price of Most of the Listings are $105 - $150.
@@ -50,5 +60,5 @@ Data Insights:
 
 Business Recommendation:
 
-By Using this Airbnb New York dataset we are predicting that the price suggested by Airbnb is cost effective or expensive.
+By Using this Airbnb New York dataset we are predicting that the price suggested by Airbnb is cost effective or expensive respective to each hotel locations.
 Thus XG Boost Performs Better With and Without Feature Engineering.
